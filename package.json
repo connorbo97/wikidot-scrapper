@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
+    "spells": "node ./index.js SPELLS",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
