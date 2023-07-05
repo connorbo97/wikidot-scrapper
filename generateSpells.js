@@ -3,7 +3,7 @@ const fs = require("fs");
 const { fetchDocument } = require("./utils/fetchUtils");
 
 
-const OUTPUT_FOLDER = 'outputConsts';
+const OUTPUT_FOLDER = 'spellOutput';
 const generateSpells = async () => {
   console.log("STARTING");
   const document = await fetchDocument("http://dnd5e.wikidot.com/spells");

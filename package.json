@@ -6,12 +6,14 @@
   "scripts": {
     "start": "node ./index.js",
     "spells": "node ./index.js SPELLS",
+    "feats": "node ./index.js FEATS",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jsdom": "^22.1.0",
+    "lodash": "^4.17.21",
     "node-fetch": "^2.6.11"
   }
 }

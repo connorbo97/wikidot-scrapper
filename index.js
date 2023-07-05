@@ -1,3 +1,4 @@
+const { generateFeats } = require("./generateFeats");
 const { generateSpells } = require("./generateSpells");
 
 const main = async () => {
@@ -7,6 +8,10 @@ const main = async () => {
 			console.log('starting spells');
 			return await generateSpells();
 		}
+    else if (type === 'FEATS') {
+      console.log('starting feats');
+      return await generateFeats();
+    }
 		
 		console.log("No scrapper found")
   } catch (err) {
